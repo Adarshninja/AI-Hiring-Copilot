@@ -95,9 +95,14 @@ Interview questions
 
 🔒 Fully local — no API keys, no cloud
 
-🖼 Demo
+🖼 Application Preview
 
-(Add your Streamlit screenshots here for extra impact)
+### Upload Resume & Job Description
+![upload Screen](./screenshots/fast.png)
+
+
+### AI Hiring Copilot Result
+![Upload Screen](./screenshots/ui.png)
 
 🛠 How to Run Locally
 1️⃣ Clone the repo
