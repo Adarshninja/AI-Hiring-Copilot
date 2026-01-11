@@ -25,3 +25,4 @@ def recruiter_feedback(resume_text, jd_text, semantic_score, matched, missing):
     """ 
     return ask_llm(prompt)
     
+    

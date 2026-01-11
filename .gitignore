@@ -6,3 +6,4 @@ uploads/
 *.pyo
 .idea/
 .vscode/
+*.env
