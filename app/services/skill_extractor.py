@@ -1,17 +1,39 @@
 import re
 
 SKILLS = [
-    "python", "java", "c++",
-    "fastapi", "flask", "django",
-    "machine learning", "deep learning",
-    "numpy", "pandas", "scikit-learn",
-    "tensorflow", "pytorch",
-    "sql", "mysql", "postgresql",
-    "docker", "kubernetes",
-    "aws", "gcp", "azure",
-    "git", "github",
-    "rest api", "microservices",
-    "flutter", "esp32", "embedded systems", "iot"   
+    # Programming
+    "python", "java", "c", "c++", "c#", "javascript", "typescript", "go", "rust",
+
+    # Backend & APIs
+    "fastapi", "django", "flask", "spring boot", "node.js", "express",
+    "rest api", "graphql", "microservices",
+
+    # AI / ML
+    "machine learning", "deep learning", "nlp", "computer vision",
+    "pytorch", "tensorflow", "scikit-learn", "xgboost",
+    "llm", "rag", "langchain", "prompt engineering",
+
+    # Data
+    "numpy", "pandas", "matplotlib", "seaborn",
+    "sql", "mysql", "postgresql", "mongodb",
+    "power bi", "tableau",
+
+    # Cloud & DevOps
+    "docker", "kubernetes", "aws", "gcp", "azure",
+    "ci/cd", "github actions",
+
+    # Databases & Search
+    "redis", "elasticsearch", "qdrant", "vector database",
+
+    # Frontend
+    "react", "next.js", "html", "css", "tailwind",
+
+    # Mobile & IoT
+    "flutter", "android", "esp32", "arduino",
+    "embedded systems", "iot", "mqtt", "blynk", "thingspeak",
+
+    # Tools
+    "git", "github", "linux", "bash", "postman"
 ]
 
 
@@ -26,3 +48,4 @@ def extract_skills(text: str) -> set:
             found_skills.add(skills)
             
     return found_skills
+
